@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://z-labo-japan.github.io/z-labo/sitemap.xml
