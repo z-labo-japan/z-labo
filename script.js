@@ -1,0 +1,1 @@
+const btn=document.querySelector('.menu');const nav=document.querySelector('.nav');btn?.addEventListener('click',()=>{const o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(o));});document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
